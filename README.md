@@ -1,2 +1,2 @@
-# Amazon Rekognition Emotion Detection Under the Mask
+# Amazon Rekognition Emotion Detection With Face Covered
 ## 
