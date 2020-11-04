@@ -1,1 +1,2 @@
-# QTM350-Project-Quattro-Formaggi-20F
+# Amazon Rekognition Emotion Detection Under the Mask
+## 
