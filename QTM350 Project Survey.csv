@@ -1,0 +1,15 @@
+images,happy,sad,angry,confused,disgusted,surprised,calm ,fear,human_correct_guess,machine_correct_guess
+happy_mask,100,0,0,0,0,0,0,0,100,10.767
+happy_sunglasses,100,0,0,0,0,0,0,0,100,99.053
+sad_mask,0,60,2.2,20,13.3,0,0,4.4,60,0.536
+sad_sunglasses,0,80,0,4.4,13.3,2.2,0,0,80,23.95
+angry_mask,0,0,84.4,6.7,8.9,0,0,0,84.4,2.296
+angry_sunglasses,0,2.2,71.1,4.4,13.3,,4.4,4.4,71.1,81.323
+confused_mask,0,0,0,84.4,15.6,0,0,0,84.4,0.784
+confused_sunglasses,0,4.4,2.2,71.1,11.1,4.4,4.4,2.2,71.1,20.616
+disgusted_mask,0,15.6,4.4,0,64.4,2.2,2.2,11.1,64.4,0.198
+disgusted_sunglasses,0,0,0,2.2,75.6,11.1,0,11.1,75.6,31.381
+surprised_mask,0,0,0,0,0,97.8,0,2.2,97.8,1.558
+surprised_sunglasses,6.7,0,0,0,0,88.9,4.4,0,88.9,82.644
+fear_mask,0,0,2.2,0,2.2,40,0,55.6,55.6,98.655
+fear_sunglasses,8.9,0,0,2.2,0,64.4,0,24.4,24.4,0.498
