@@ -10,13 +10,13 @@ There are two main focuses of this project:
 Each image used should have 3 versions: 
 - The original face image, as the control group, should only have one person who is facing front to the camera without covering on his face (glasses that are transparent are allowed because they will not cover the eyes), and the emotion on the face should be apparant enough to be identified by both humans and the machine. 
 - The image with mask should be the original image plus a face mask added using photo editing. 
-- The image with sunglasses should be the original image plus sunglasses (black sunglasses to cover the eyes) added using photo editing. 
+- The image with sunglasses should be the original image plus sunglasses (black sunglasses to cover the eyes) added using photo editing.    
 Gather as many images as possible for each emotion among **HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | UNKNOWN | FEAR**, which are the valid values for Rekognition emotions identification. 
 
 ***
 ## Compare images without cover, with mask, and with sunglasses
 To start, create a notebook on Amazon SageMaker. Store every image in an S3 bucket so that they can be called by Rekognition in the notebook. Test each image using Amazon Rekogtion Face Detection and record the list of emotions and their confidence levels. 
-The example result should be like this: 
+The example result should be like this:    
 ![Example result](https://raw.githubusercontent.com/ymengxu/QTM350-Project-Quattro-Formaggi-20F/main/readme%20picture/5.PNG)  
 To compare images of one emotion without cover, with mask, and with sunglasses, draw a boxplot or violinplot with the 3 types (no cover, mask, sunglasses) on the x axis, and the confidence level of that emotion on the y axis. To produce more credible result, you need a fair amount of images of each emotion.  
 You can also compare between emotions to investigate if Rekognition identify some emotions better than others when the image is covered with mask or sunglasses by comparing the plot of each emotion. Since there are not enough images for every emotion, this step is not demonstrated in the project. 
