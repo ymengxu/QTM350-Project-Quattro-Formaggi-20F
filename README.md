@@ -12,7 +12,7 @@ Each image used should have 3 versions:
 - The image with mask should be the original image plus a face mask added using photo editing. 
 - The image with sunglasses should be the original image plus sunglasses (black sunglasses to cover the eyes) added using photo editing.    
 
-Gather as many images as possible for each emotion among **HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | UNKNOWN | FEAR**, which are the valid values for Rekognition emotions identification. 
+Gather as many images as possible for each emotion among **HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | FEAR**, which are the valid values for Rekognition emotions identification. 
 
 ***
 ## Compare images without cover, with mask, and with sunglasses
@@ -20,11 +20,11 @@ To start, create a notebook on Amazon SageMaker. Store every image in an S3 buck
 The example result should be like this:    
 ![Example result](https://raw.githubusercontent.com/ymengxu/QTM350-Project-Quattro-Formaggi-20F/main/readme%20picture/5.PNG)  
 To compare images of one emotion without cover, with mask, and with sunglasses, draw a boxplot or violinplot with the 3 types (no cover, mask, sunglasses) on the x axis, and the confidence level of that emotion on the y axis. To produce more credible result, you need a fair amount of images of each emotion.  
-You can also compare between emotions to investigate if Rekognition identify some emotions better than others when the image is covered with mask or sunglasses by comparing the plot of each emotion. Since there are not enough images for every emotion, this step is not demonstrated in the project. 
-Focusing on the top emotion guess of each image is also a potential area. You can investigate what is the most commonly identified emotion among images with mask and among images with sunglasses. 
+You can also compare between emotions to investigate if Rekognition identify some emotions better than others when the image is covered with mask or sunglasses by comparing the plot of each emotion. Since there are not enough images for every emotion, this step is not demonstrated in the project.   
+Focusing on the top emotion guess of each image is also a potential area. You can investigate what is the most commonly identified emotion among images with mask and among images with sunglasses.
 
 ***
-## Compare betwwen humans and the machine
-You need to gather information of how people detect emotions in the same images you use Rekognition to test. 
+## Compare between humans and the machine
+First, gather information of how people detect emotions in the same images you use Rekognition to test. You can gather information by a survey using google forms. The survey should contain multiple choice questions, each showing an image, and asks the respondents to choose the emotion they think the person in each image is expressing. The choices for each question are HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | FEAR. Note that you should not include images with no cover in the survey and remember to randomly shuffle the images. 
 
 
