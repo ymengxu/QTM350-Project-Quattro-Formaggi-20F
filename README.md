@@ -29,7 +29,7 @@ Focusing on the top emotion guess of each image is also a potential area. You ca
 First, gather information of how people detect emotions in the same images you use Rekognition to test. You can gather information by a survey using google forms. The survey should contain multiple choice questions, each showing an image, and asks the respondents to choose the emotion they think the person in each image is expressing. The choices for each question are HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | FEAR. Note that you should not include images with no cover in the survey and remember to randomly shuffle the images. This is the sample survey used in the project: [QTM350 Project Survey](https://docs.google.com/forms/d/e/1FAIpQLSf_kLTRN6m8N3CGJCn8HP5Npx7iMpE9vrUJ0NfNATtd2RuxDQ/viewform?usp=sf_link).     
 Record the survey results in a csv file where each row is an image and columns record the percentage of each choice. In the last two columns, record the percentage of correct choices in the survey and the confidence Rekognition returns for the correct emotion of that image. The last two columns are recorded for regression. 
 ### Regression
-
+This study has two sets of data, which are then developed into a scatter plot. This scatter plot contains the distribution of confidence score by machine, at the x-axis, and the distribution of rate of correct choices made by humans, at the y-axis. By developing a regression line within the plot, comparisons on the effectiveness and accuracy of human and machine detection on emotions present. The results from currently avalible data suggest that human generally do better job on detecting people's emotions under different conditions than machine.
 
 ***
 ## Architecture 
