@@ -25,6 +25,13 @@ Focusing on the top emotion guess of each image is also a potential area. You ca
 
 ***
 ## Compare between humans and the machine
-First, gather information of how people detect emotions in the same images you use Rekognition to test. You can gather information by a survey using google forms. The survey should contain multiple choice questions, each showing an image, and asks the respondents to choose the emotion they think the person in each image is expressing. The choices for each question are HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | FEAR. Note that you should not include images with no cover in the survey and remember to randomly shuffle the images. This is the sample survey used in the project: [QTM350 Project Survey](https://docs.google.com/forms/d/e/1FAIpQLSf_kLTRN6m8N3CGJCn8HP5Npx7iMpE9vrUJ0NfNATtd2RuxDQ/viewform?usp=sf_link)
+### Survey about humans' emotion detection 
+First, gather information of how people detect emotions in the same images you use Rekognition to test. You can gather information by a survey using google forms. The survey should contain multiple choice questions, each showing an image, and asks the respondents to choose the emotion they think the person in each image is expressing. The choices for each question are HAPPY | SAD | ANGRY | CONFUSED | DISGUSTED | SURPRISED | CALM | FEAR. Note that you should not include images with no cover in the survey and remember to randomly shuffle the images. This is the sample survey used in the project: [QTM350 Project Survey](https://docs.google.com/forms/d/e/1FAIpQLSf_kLTRN6m8N3CGJCn8HP5Npx7iMpE9vrUJ0NfNATtd2RuxDQ/viewform?usp=sf_link).    
+
+***
+## Architecture 
+Below is the architecture of our project.    
+![Architecture](https://raw.githubusercontent.com/ymengxu/QTM350-Project-Quattro-Formaggi-20F/main/Flowchart.png)
+
 
 
