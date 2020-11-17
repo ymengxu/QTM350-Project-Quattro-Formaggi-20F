@@ -38,5 +38,5 @@ Below is the architecture of our project.
 
 ***
 ## Further Studies
-This research only explored two types of covering on human faces, while people are free to use almost any covering object in their daily lives. The most common example would be our hands covering the mouths when we feel surprised or scared. For further research, different types of covering can be experimented using Amazon Rekognition model and compared for their accuracies. 
-
+This research only explored two types of covering on human faces, while people are free to use almost any object in their daily lives. The most common example would be our hands covering the mouths when we feel surprised or scared. For further research, different types of covering can be experimented using Amazon Rekognition model and compared between their accuracies. 
+Moreover, the results of this project have suggested different degrees of capabillity for Amazon Rekognition to detect emotions from different faces. Yet this project primarily focused on its precision of emotion detection within one image. For further studies, it is worth exploring factors that may increase the confidence level of the machine.
