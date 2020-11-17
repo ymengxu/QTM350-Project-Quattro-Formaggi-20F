@@ -16,6 +16,14 @@ Gather as many images as possible for each emotion among **HAPPY | SAD | ANGRY |
 ***
 ## Compare images without cover, with mask, and with sunglasses
 To start, create a notebook on Amazon SageMaker. Store every image in an S3 bucket so that they can be called by Rekognition in the notebook. Test each image using Amazon Rekogtion Face Detection and record the list of emotions and their confidence levels. 
-![Example result](https://raw.githubusercontent.com/ymengxu/QTM350-Project-Quattro-Formaggi-20F/main/readme%20picture/5.PNG)
+The example result should be like this: 
+![Example result](https://raw.githubusercontent.com/ymengxu/QTM350-Project-Quattro-Formaggi-20F/main/readme%20picture/5.PNG)  
+To compare images of one emotion without cover, with mask, and with sunglasses, draw a boxplot or violinplot with the 3 types (no cover, mask, sunglasses) on the x axis, and the confidence level of that emotion on the y axis. To produce more credible result, you need a fair amount of images of each emotion.  
+You can also compare between emotions to investigate if Rekognition identify some emotions better than others when the image is covered with mask or sunglasses by comparing the plot of each emotion. Since there are not enough images for every emotion, this step is not demonstrated in the project. 
+Focusing on the top emotion guess of each image is also a potential area. You can investigate what is the most commonly identified emotion among images with mask and among images with sunglasses. 
+
+***
+## Compare betwwen humans and the machine
+You need to gather information of how people detect emotions in the same images you use Rekognition to test. 
 
 
