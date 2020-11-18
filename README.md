@@ -45,6 +45,6 @@ Moreover, the results of this project have suggested different degrees of capabi
 ***
 ## Resources
 ### AWS services
-- [Amazon s3 Bucket](https://aws.amazon.com/cn/s3/)
-- [Amazon SageMaker](https://aws.amazon.com/cn/sagemaker/)
-- [Amazon Rekognition](https://aws.amazon.com/cn/rekognition/)
+- [Amazon S3 Bucket](https://aws.amazon.com/cn/s3/) to store the images
+- [Amazon SageMaker](https://aws.amazon.com/cn/sagemaker/) to write the notebook
+- [Amazon Rekognition](https://aws.amazon.com/cn/rekognition/), the main tool to detect emotions in the images 
